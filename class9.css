@@ -1,0 +1,79 @@
+body {background-color: azure;
+color:navy;
+font-family:"Roboto";}
+
+@font-face {
+    font-family:"spacerave";
+    src: url("Space Rave.ttf");
+}
+h1{font-family:"spacerave";
+font-size:300%;
+text-align:center;
+margin:auto;
+}
+
+nav {margin:auto;
+width:100%;
+background-color:navy;
+text-align:center;
+position:sticky;
+top:0;
+display:inline-block;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+nav li {
+list-style-type:none;
+display:inline-flex;
+}
+
+ul {text-decoration: none;}
+
+div{display:flex;
+justify-content: center;
+}
+
+a {padding:20px;}
+a:link{text-decoration:none;
+color:rgb(255, 160, 255);
+display:block;
+}
+a:visited {color:rgb(255, 0, 255);}
+a:hover {color:rgb(255, 255, 255);
+background-color:blue;}
+
+
+.main1 {margin-top:1%;
+    margin-bottom:1%;
+text-align:center;
+width:100%;
+border-radius:30px;
+justify-content: center;
+}
+
+.main2 {margin:auto;
+    padding:30px;
+    text-align:left;
+    width:100%;
+    line-height:1.5;
+    background-color:turquoise;
+    width:33%;
+    border-radius:30px;
+    }
+
+.gallery {justify-content:space-around;
+flex-direction:row;
+flex-wrap:wrap;
+}
+
+footer {margin:auto;
+    width:100%;
+    background-color:navy;
+    text-align:center;
+    top:0;
+    display:inline-block;
+    padding-top:10px;
+    padding-bottom:10px;
+    }
+    
